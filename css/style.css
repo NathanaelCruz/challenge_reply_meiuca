@@ -1,0 +1,349 @@
+@import "https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Literata:wght@400;500;700&display=swap";
+
+/*
+font-family: 'Archivo', sans-serif;
+font-family: 'Literata', serif;
+*/
+
+body {
+    color: #60646c;
+    background-color: #F2F2F5;
+    font-family: 'Archivo';
+}
+
+nav,
+footer,
+.menu,
+.btn-black-off {
+    background-color: #000;
+}
+
+nav ul,
+footer,
+.centro-banner,
+.centro-textos,
+.centro-azul,
+.item-block-center,
+.bottom-faq,
+.btn-black-off,
+#center-menu-main,
+.menu-main-links {
+    display: flex;
+}
+
+.bottom-faq,
+.menu-main-links {
+    flex-direction: column;
+}
+
+.centro-banner section p,
+nav ul li,
+h1,
+h3,
+.title-center-blue,
+.title-center-blue-right,
+.btn-white-mc,
+.btn-black-off,
+#center-menu-main a,
+#center-menu-main {
+    color: #fff;
+}
+
+.hash-not-divide,
+.centro-textos section h2,
+.btn-white-mc:hover,
+ul.submenu-faq li,
+h1.title-faq {
+    color: #000;
+}
+
+nav ul,
+.btn-black-off,
+#center-menu-main,
+footer {
+    justify-content: space-between;
+}
+
+nav ul,
+footer {
+    align-items: center;
+}
+
+.title-center-blue,
+.title-center-blue-right,
+.centro-textos section h2,
+.title-top-main-menu,
+ul.menu-main-links li a,
+h1 {
+    font-weight: bold;
+}
+
+.title-center-blue,
+ul.menu-main-links li a {
+    font-size: 2rem;
+}
+
+.centro-textos section:last-child p,
+h3,
+ul.menu-main-links li a {
+    font-family: 'Archivo', sans-serif;
+}
+
+.banner-top,
+.centro-azul {
+    background-color: #247CFA;
+}
+
+.banner-top,
+.centro-textos,
+.centro-azul {
+    margin-bottom: 7rem;
+}
+
+.centro-banner section p,
+footer section p {
+    font-family: 'Literata';
+}
+
+.btn-white-mc:hover,
+.link-menu-main hr {
+    background-color: #fff;
+}
+
+.link-menu-main a,
+#center-menu-main section:nth-child(2) a {
+    text-decoration: none;
+}
+
+.link-menu-main:hover hr,
+.link-menu-main:last-child:hover hr {
+    width: 30%;
+}
+
+.link-menu-main:last-child,
+.link-menu-main:last-child hr {
+    width: 70px;
+}
+
+.centro-textos section h2,
+.block-center,
+section#center-menu-main section section:last-child p:nth-child(2),
+nav {
+    padding: 0!important;
+}
+
+nav {
+    position: fixed!important;
+    z-index: 99;
+}
+
+nav ul {
+    height: 15%;
+    padding: 25px 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.menu-icon-click.closed:before {
+    content: "\f00d";
+}
+
+.menu-icon-click:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0c9";
+    font-size: 25px;
+}
+
+.menu-icon-click:hover {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 5.5rem;
+}
+
+h3 {
+    font-size: .9rem;
+    text-transform: capitalize;
+    letter-spacing: .2em;
+}
+
+.logo-menu {
+    width: 100px;
+}
+
+.active i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.banner-top {
+    height: 680px;
+    padding-top: 10rem;
+}
+
+.imagem-banner img {
+    width: 105%;
+}
+
+.centro-textos section:last-child p {
+    font-size: .8rem;
+    color: #60646c;
+    line-height: 2;
+}
+
+.hash-not-divide {
+    font-size: 1.5rem;
+    font-family: Arial;
+    font-weight: 200;
+}
+
+.centro-textos section h2 {
+    margin: 0 0 20px 0;
+}
+
+.centro-azul {
+    padding: 7rem;
+}
+
+.title-center-blue-right {
+    font-size: 1.4rem;
+}
+
+.block-center {
+    font-size: .9rem;
+    color: #bbb;
+}
+
+.btn-white-mc {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+}
+
+.item-block-center:nth-child(n+2) {
+    margin-top: 25px;
+}
+
+.item-block-center .block-right img {
+    margin: 30px 20px 0 0;
+}
+
+.item-block-center:nth-child(n+2) .block-right img {
+    margin: 15px 20px 0 0;
+}
+
+.item-block-center section:last-child p {
+    margin-bottom: 25px;
+}
+
+.btn-black-off {
+    height: 50px;
+    border: 0;
+    margin-top: 10px;
+}
+
+.btn-black-off:focus {
+    outline: none;
+}
+
+.bottom-faq section ul li {
+    list-style: none;
+}
+
+.submenu-faq {
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+h1.title-faq {
+    font-size: 2.1rem;
+    margin-left: 3.2rem;
+}
+
+section.menu {
+    display: none;
+    height: 70%;
+    border-bottom: 1px solid #fff;
+}
+
+#center-menu-main {
+    padding-top: 5rem;
+    margin-left: 1.2rem;
+    overflow-y: auto;
+}
+
+section#center-menu-main section section:last-child {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.link-menu-main hr {
+    height: 1px;
+    width: 135px;
+    margin: 0 0 0 auto;
+    -webkit-transition: width 0.3s ease;
+    -moz-transition: width 0.3s ease;
+    -o-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+    animation-direction: reverse;
+}
+
+.link-menu-main {
+    width: 135px;
+}
+
+.first-link-menu-main {
+    margin-left: 1rem;
+}
+
+.link-menu-main {
+    margin-bottom: 3rem;
+}
+
+.title-top-main-menu {
+    font-size: 1.7rem;
+}
+
+.menu-main-links {
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+
+ul.menu-main-links li:nth-child(n+2) {
+    margin-left: 22px;
+    margin-bottom: 13px;
+}
+
+.menu-main-links li:nth-child(2) {
+    margin-top: 4rem;
+}
+
+ul.menu-main-links li:first-child {
+    margin-top: -3rem;
+}
+
+footer {
+    padding: 35px 40px;
+    margin-top: 6rem;
+}
+
+footer section p {
+    color: #616366;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+footer section:first-child,
+nav ul li:first-child {
+    margin-left: 25px;
+}
+
+footer section:last-child {
+    margin-right: 25px;
+}
